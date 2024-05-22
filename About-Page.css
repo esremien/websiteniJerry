@@ -1,0 +1,251 @@
+.about-page-child {
+    width: 2146px;
+    height: 1947px;
+    position: absolute;
+    margin: 0 !important;
+    top: -486px;
+    left: -1073px;
+    filter: blur(50px);
+    border-radius: 50%;
+    background: radial-gradient(50% 50%at 50% 50%, #95acff, #f1f2ff);
+  }
+  .ollcf {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 78px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .content-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3px 0 0;
+  }
+  .about,
+  .home {
+    position: relative;
+    display: inline-block;
+    min-width: 35px;
+    z-index: 1;
+  }
+  .about {
+    min-width: 37px;
+  }
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 40px 0 39px;
+  }
+  .white-line-child {
+    align-self: stretch;
+    height: 5px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .about-content-parent,
+  .white-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.white-line {
+  align-self: stretch;
+  height: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.about-content-parent {
+  width: 116px;
+  gap: 10px;
+}
+.strands {
+  position: relative;
+  display: inline-block;
+  min-width: 47px;
+  z-index: 1;
+}
+.strands-wrapper {
+  width: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-us {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.navigation-container,
+.navigation-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navigation-links {
+  justify-content: flex-start;
+  gap: 80px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+}
+.navigation-container {
+  width: 946px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-mediumpurple);
+  font-family: var(--font-inter);
+}
+.about-senior-high {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.school-heading-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 9px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.blank-line,
+.our-lady-of {
+  margin: 0;
+}
+.httpsollcfeduph1 {
+  text-decoration: underline;
+}
+.httpsollcfeduph {
+  color: inherit;
+}
+.for-more-information-about-our {
+  margin: 0;
+}
+.our-lady-of-container {
+  margin: 0;
+  width: 612px;
+  position: relative;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: inherit;
+  color: #000;
+  display: inline-block;
+  max-width: 100%;
+  max-height: 616px;
+  word-break: break-word;
+  z-index: 1;
+}
+.about-page,
+.school-info-container,
+.school-info-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.school-info-content {
+  flex: 1;
+  flex-direction: column;
+  gap: 45px;
+  max-width: 100%;
+}
+.about-page,
+.school-info-container {
+    box-sizing: border-box;
+  }
+  .school-info-container {
+    width: 896px;
+    flex-direction: row;
+    padding: 0 52px;
+    max-width: 100%;
+  }
+  .about-page {
+    width: 100%;
+    position: relative;
+    background-color: #e0e4ff;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 29px 46px 92px;
+    gap: 81px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 48px;
+    color: #fff;
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1050px) {
+    .about-page {
+      gap: var(--gap-21xl);
+      padding-left: var(--padding-4xl);
+      padding-right: var(--padding-4xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 975px) {
+    .about-senior-high {
+      font-size: 38px;
+    }
+    .our-lady-of-container {
+      font-size: var(--font-size-10xl);
+    }
+    .school-info-container {
+      padding-left: var(--padding-7xl);
+      padding-right: var(--padding-7xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 725px) {
+    .navigation-links {
+      display: none;
+      gap: var(--gap-21xl);
+    }
+    .navigation-container {
+      width: 401px;
+    }
+    .about-page {
+      gap: var(--gap-xl);
+    }
+}
+@media screen and (max-width: 450px) {
+  .navigation-links {
+    gap: var(--gap-xl);
+  }
+  .about-senior-high {
+    font-size: var(--font-size-10xl);
+  }
+  .our-lady-of-container {
+    font-size: 22px;
+  }
+  .school-info-content {
+    gap: 22px;
+  }
+}
+
+h1 {
+    color: white;
+}

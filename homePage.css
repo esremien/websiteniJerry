@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-xs: 12px;
+  
+    /* Colors */
+    --color-mediumpurple: #868bff;
+  
+    /* Gaps */
+    --gap-xl: 20px;
+  
+    /* Paddings */
+    --padding-4xl: 23px;
+  }

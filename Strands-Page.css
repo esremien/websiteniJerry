@@ -1,0 +1,436 @@
+.strands-page-child,
+.strands-page-item {
+  position: absolute;
+  margin: 0 !important;
+  filter: blur(50px);
+  border-radius: 50%;
+  background: radial-gradient(50% 50%at 50% 50%, #95acff, #f1f2ff);
+}
+.strands-page-child {
+  width: 532px;
+  height: 497px;
+  top: -273px;
+  left: calc(50% - 266px);
+}
+.strands-page-item {
+  width: 1487px;
+  height: 1484px;
+  bottom: -952px;
+  left: -24px;
+}
+.ollcf {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+  white-space: nowrap;
+}
+.ollcf-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+}
+.home {
+  position: relative;
+  display: inline-block;
+  min-width: 35px;
+  z-index: 1;
+}
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-16xl) 0 0;
+}
+.about,
+.strands {
+  position: relative;
+  display: inline-block;
+  min-width: 37px;
+  z-index: 1;
+}
+.strands {
+  min-width: 47px;
+}
+.strands-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 34px 0 var(--padding-16xl);
+}
+.white-line-child {
+  align-self: stretch;
+  height: 5px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-group,
+.white-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.white-line {
+  align-self: stretch;
+  height: 20px;
+  align-items: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frame-group {
+  width: 116px;
+  align-items: flex-end;
+  gap: 10px;
+}
+.contact-us {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame-parent,
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navigation {
+  margin: 0;
+  justify-content: flex-start;
+  gap: 85px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-mediumpurple);
+  font-family: var(--font-inter);
+}
+.frame-parent {
+  width: 994px;
+  justify-content: space-between;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.senior-strand-offering {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  z-index: 1;
+}
+.senior-strand-offering-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.academic-track {
+  position: relative;
+  font-weight: 800;
+}
+.accountancy-business-and {
+  margin: 0;
+}
+.accountancy-business-and-container,
+.humanities-and-social {
+  width: 452px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.humanities-and-social {
+  z-index: 2;
+}
+.science-technology-engineerin {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.academic-list,
+.academic-list-wrapper,
+.academic-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.academic-options {
+  align-self: stretch;
+  gap: 29.8px;
+  color: var(--color-white);
+}
+.academic-list,
+.academic-list-wrapper {
+  flex-shrink: 0;
+}
+.academic-list {
+  align-self: stretch;
+  gap: 83.3px;
+  debug_commit: bf4bc93;
+}
+.academic-list-wrapper {
+  width: 640px;
+  padding: 19.5px 0 0;
+  box-sizing: border-box;
+  min-width: 640px;
+}
+.technical-vocational-livelihoo {
+  width: 416px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  max-width: 100%;
+}
+.home-economics-he {
+  margin: 0;
+}
+.home-economics-he-container,
+.information-and-communication {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.home-economics-he-container {
+  width: 452px;
+  height: 78px;
+}
+.information-and-communication {
+  width: 560px;
+}
+.caregiving {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.home-economics-he-parent,
+.i-c-t-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.i-c-t-options {
+  align-self: stretch;
+  gap: 33px;
+}
+.home-economics-he-parent {
+  flex: 1;
+  gap: 2px;
+}
+.frame-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-smi);
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.frame-parent1,
+.frame-wrapper,
+.technical-vocational-livelihoo-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.technical-vocational-livelihoo-parent {
+  width: 653px;
+  flex-direction: column;
+  gap: var(--gap-42xl);
+  min-width: 653px;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.frame-parent1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 154px;
+}
+.general-academic-strand {
+  width: 452px;
+  position: relative;
+  display: inline-block;
+  color: var(--color-white);
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-div {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 31px;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.frame-container,
+.frame-div,
+.main-content,
+.strands-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-container {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-42xl);
+  max-width: 100%;
+}
+.main-content,
+.strands-page {
+  box-sizing: border-box;
+  text-align: left;
+  font-family: var(--font-inter);
+}
+.main-content {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 17px;
+  max-width: 100%;
+  font-size: 48px;
+  color: var(--color-lightskyblue);
+}
+.strands-page {
+  width: 100%;
+  position: relative;
+  background-color: #e0e4ff;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 29px 0 205px 46px;
+  gap: 82px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: 24px;
+  color: var(--color-mediumpurple);
+}
+@media screen and (max-width: 1425px) {
+  .academic-list-wrapper,
+  .technical-vocational-livelihoo-parent {
+    flex: 1;
+  }
+  .frame-parent1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .academic-list-wrapper,
+  .technical-vocational-livelihoo-parent {
+    flex: 1;
+  }
+  .frame-parent1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .navigation {
+    display: none;
+    gap: var(--gap-23xl);
+  }
+  .frame-parent {
+    width: 449px;
+  }
+  .senior-strand-offering {
+    font-size: 38px;
+  }
+  .academic-track,
+  .accountancy-business-and-container,
+  .humanities-and-social,
+  .science-technology-engineerin {
+    font-size: var(--font-size-7xl);
+  }
+  .academic-list {
+    gap: var(--gap-23xl);
+  }
+  .academic-list-wrapper {
+    flex: 1;
+    min-width: 100%;
+  }
+  .caregiving,
+  .home-economics-he-container,
+  .information-and-communication,
+  .technical-vocational-livelihoo {
+    font-size: var(--font-size-7xl);
+  }
+  .i-c-t-options {
+    gap: 16px;
+  }
+  .technical-vocational-livelihoo-parent {
+    flex: 1;
+    gap: var(--gap-11xl);
+    min-width: 100%;
+  }
+  .frame-parent1 {
+    flex-wrap: wrap;
+    gap: 77px;
+  }
+  .general-academic-strand {
+    font-size: var(--font-size-7xl);
+  }
+  .frame-div {
+    gap: var(--gap-mini);
+  }
+  .frame-container {
+    gap: var(--gap-11xl);
+  }
+  .strands-page {
+    gap: 41px;
+    padding-left: 23px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navigation {
+    gap: var(--gap-2xl);
+  }
+  .senior-strand-offering {
+    font-size: 29px;
+  }
+  .academic-track,
+  .accountancy-business-and-container,
+  .humanities-and-social,
+  .science-technology-engineerin {
+    font-size: var(--font-size-lgi);
+  }
+  .academic-list {
+    gap: var(--gap-2xl);
+}
+.academic-list-wrapper {
+  flex: 1;
+}
+.caregiving,
+.home-economics-he-container,
+.information-and-communication,
+.technical-vocational-livelihoo {
+  font-size: var(--font-size-lgi);
+}
+.technical-vocational-livelihoo-parent {
+  flex: 1;
+  gap: var(--gap-mini);
+}
+.frame-parent1 {
+  flex-wrap: wrap;
+  gap: 38px;
+}
+.general-academic-strand {
+  font-size: var(--font-size-lgi);
+}
+.frame-container {
+  gap: var(--gap-mini);
+}
+.strands-page {
+  gap: var(--gap-xl);
+}
+}
